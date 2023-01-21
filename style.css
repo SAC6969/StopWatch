@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Brush Script MT', cursive;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #faf8f8;
+    margin-bottom: 4rem;
+}
+
+.display{
+    background-color: white;
+    height: 2.4rem;
+    width: 12rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.display span{
+    font-size: 1.5rem;
+}
+
+.container{
+    margin: 100px auto;
+    background-color: #9b59b6;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* buttons */
+.btn-group button{
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    margin-top: 2rem;
+    height: 1.8rem;
+    width: 3.8rem;
+    border-radius: 0.4rem;
+    outline: none;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-group button:hover{
+    cursor: pointer;
+}
